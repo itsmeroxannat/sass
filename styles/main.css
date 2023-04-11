@@ -313,22 +313,22 @@ template {
 }
 
 h1 {
-  color: red;
+  color: #f93f3f;
+}
+
+.primary {
+  color: #f93f3f;
 }
 
 nav {
-  background-color: #43b711;
+  background-color: white;
 }
 nav a {
-  color: #d23333;
+  color: #f93f3f;
 }
 nav ul li {
   list-style: none;
 }
 nav ul li a {
-  color: white;
-}
-
-.primary {
-  color: #d23333;
+  color: #414141;
 }/*# sourceMappingURL=main.css.map */

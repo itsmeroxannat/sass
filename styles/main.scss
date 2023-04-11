@@ -1,37 +1,44 @@
 @use "./vendor/normalize";
+@use "./partials/colors";
+@use "./partials/mixins";
+@use "./partials/typography";
 
-h1 {
-    color: red;
+body {
+    font-family: 'Dosis', sans-serif;
 }
 
-//nav a {
-//   color:white;
-//}
+h1 {
+    color: colors.$primary-color;
+    font-family: 'Marck Script', cursive;
+}
 
-//nav {
-//    background-color:gray;
-//}
+.primary {
+   @include mixims.primary-button(#7676c9);
+}
 
-//nav ul li {
-//    list-style:none;
-//}
+.secondary {
+    @include mixims.primary-button (tomato);
+}
 
 nav {
     a {
-        color:#d23333;
+        color: colors.$primary-color;
     }
-    background-color:#43b711;
+    background-color:white;
     ul {
         li {
            list-style: none; 
        a {
-        color:white;
+        color: $primary-color;
        }
     }
 }
 }
 
-
-.primary {
-    color:#d23333;
+.buttons {
+    margin-top: 20px;
 }
+
+
+
+
