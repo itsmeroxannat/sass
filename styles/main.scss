@@ -7,9 +7,9 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
-h1 {
+main h1 {
     color: colors.$primary-color;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Marck Script';
 }
 
 .paragraph {
@@ -17,11 +17,11 @@ h1 {
 }
 
 .primary {
-   @include mixims.primary-button(#7676c9);
+   @include mixins.primary-button(#7676c9);
 }
 
 .secondary {
-    @include mixims.primary-button (#DB8D33);
+    @include mixins.primary-button (#DB8D33);
 }
 
 nav {
@@ -33,7 +33,7 @@ nav {
         li {
            list-style: none; 
        a {
-        color: $primary-color;
+        color: colors.$primary-color;
        }
     }
 }
