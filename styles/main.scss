@@ -12,12 +12,16 @@ h1 {
     font-family: 'Marck Script', cursive;
 }
 
+.paragraph {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .primary {
    @include mixims.primary-button(#7676c9);
 }
 
 .secondary {
-    @include mixims.primary-button (tomato);
+    @include mixims.primary-button (#DB8D33);
 }
 
 nav {
