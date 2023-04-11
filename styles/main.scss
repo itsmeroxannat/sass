@@ -1,0 +1,37 @@
+@use "./vendor/normalize";
+
+h1 {
+    color: red;
+}
+
+//nav a {
+//   color:white;
+//}
+
+//nav {
+//    background-color:gray;
+//}
+
+//nav ul li {
+//    list-style:none;
+//}
+
+nav {
+    a {
+        color:#d23333;
+    }
+    background-color:#43b711;
+    ul {
+        li {
+           list-style: none; 
+       a {
+        color:white;
+       }
+    }
+}
+}
+
+
+.primary {
+    color:#d23333;
+}
